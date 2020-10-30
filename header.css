@@ -1,0 +1,48 @@
+header {
+    overflow-x: hidden;
+}
+#header-nav {
+    position: absolute;
+    top: 10px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+#header-nav > div {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    
+}
+#header-nav > div > a {
+    color: white;
+}
+header > img {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    min-width: 1668px;
+    
+}
+#header-back {
+    z-index: 0;
+}
+#header-cover {
+    opacity: .2;
+    z-index: 1;
+}
+#header-main-text-box {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+}
+#header-main-text {
+    width: 540px;
+    position: absolute;
+    top: 275px;
+    left: 505px;
+}
