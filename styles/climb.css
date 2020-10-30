@@ -1,0 +1,16 @@
+#climb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 195px;
+}
+#climb-climb {
+    position: relative;
+    right:22px;
+    top: 15px;
+}
+#climb > p {
+    width: 500px;
+    padding-left: 30px;
+}

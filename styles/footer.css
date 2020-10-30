@@ -1,0 +1,14 @@
+footer {
+    padding-top: 630px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer-cover {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(21, 32, 63, 0.781);
+    position: absolute;
+    top: 2812px;
+}

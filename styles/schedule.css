@@ -1,0 +1,42 @@
+#schedule {
+    position: absolute;
+    top: 2025px;
+    width: 100%;
+}
+#schedule-mountain {
+    
+    display: flex;
+    background-color: rgba(53, 66, 89, 0.849);
+    color: rgb(34, 39, 70);
+    padding: 0px;
+    padding-left: 300px;
+}
+#schedule-mountain > p {
+    padding: 3px 12px 5px 12px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#selected {
+    background-color: rgb(164, 170, 179);
+}
+#schedule > img {
+    width: 100%;
+}
+#schedule-schedule {
+    position: absolute;
+    bottom: 400px;
+    left: 350px;
+    background-color: rgba(255, 255, 255, 0.472);
+    padding: 12px 24px 24px 24px;
+}
+#schedule-schedule >h3 {
+    color:  rgb(34, 39, 70);
+    font-size: 26px;
+}
+#schedule-schedule > div {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 20px;
+    font-size: 18px;
+}
